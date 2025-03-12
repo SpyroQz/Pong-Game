@@ -3,7 +3,7 @@ package game;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class YourGameName extends Game {
+public class Pong extends Game {
 	
 	private static final long serialVersionUID = 1L;
 	Ball ball;
@@ -12,7 +12,7 @@ public class YourGameName extends Game {
 	Player player;
 	Computer computer;
 
-	public YourGameName() {
+	public Pong() {
 		super("Pong", 1000, 600);
 		this.setFocusable(true);
 		this.requestFocus();
@@ -196,7 +196,7 @@ public class YourGameName extends Game {
 	}
 	
 	public static void main (String[] args) {
-   		YourGameName a = new YourGameName();
+   		Pong a = new Pong();
 		a.repaint();
 	}
 }

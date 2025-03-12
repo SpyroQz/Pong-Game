@@ -63,12 +63,12 @@ public class Paddle1 extends Polygon implements Movable {
 	    }
 	}
 	
-	public void addKeyListener(YourGameName pong) {
+	public void addKeyListener(Pong pong) {
 		pong.addKeyListener(keyListener);
 		
 	}
 	
-	public void removeKeyListener(YourGameName pong) {
+	public void removeKeyListener(Pong pong) {
 		pong.removeKeyListener(keyListener);
 		
 	}
